@@ -11,7 +11,7 @@ export default function Footer() {
           {/* Company Info */}
           <div>
             <img
-              src="../../src/assets/logo.svg"
+              src="../assets/logo.svg"
               alt="CARBON Logo"
               className="lg:w-50 w-40"
             />
