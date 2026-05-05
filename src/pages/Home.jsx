@@ -16,7 +16,7 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen overflow-x-hidden">
       {/* Hero Section */}
       <section
         className="relative min-h-[90vh] flex items-center overflow-hidden"
@@ -42,8 +42,7 @@ export default function Home() {
             transition={{ duration: 0.8 }}
             className="max-w-6xl"
           >
-            <h1
-              className="text-4xl md:text-6xl font-bold tracking-tight uppercase mb-6 leading-tight"
+            <h1 className="text-4xl md:text-6xl font-bold tracking-tight uppercase mb-6 leading-tight wrap-break-word"
               data-testid="hero-title"
               style={{ fontFamily: "Barlow Condensed, sans-serif" }}
             >
