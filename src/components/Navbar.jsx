@@ -50,7 +50,7 @@ export default function Navbar() {
               className="flex items-center space-x-2"
               data-testid="logo-link"
             >
-              <img src="../assets/logo.svg" alt = "CARBON Logo" className="lg:w-50 w-40"/>
+              <img src="../assets/logo.svg" alt = "CARBON Logo" className="lg:w-44 w-32 object-contain max-w-full"/>
             </Link>
 
             {/* Desktop Navigation */}
