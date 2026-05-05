@@ -19,13 +19,13 @@ export default function Home() {
     <div className="min-h-screen overflow-x-hidden">
       {/* Hero Section */}
       <section
-        className="relative min-h-[90vh] flex items-center overflow-hidden"
+        className="relative min-h-[90vh] flex items-center overflow-hidden w-full max-w-full"
         data-testid="hero-section"
       >
         {/* Background Image with Overlay */}
-        <div className="absolute inset-0 z-0">
+        <div className="absolute inset-0 z-0 w-full max-w-full overflow-hidden">
           <div
-            className="absolute inset-0 bg-cover bg-center"
+            className="absolute inset-0 w-full h-full bg-cover bg-center"
             style={{
               backgroundImage:
                 "url(https://plus.unsplash.com/premium_photo-1664302152991-d013ff125f3f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YnVzfGVufDB8fDB8fHww)",

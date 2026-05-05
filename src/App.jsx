@@ -11,7 +11,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App bg-[#020617] min-h-screen">
+    <div className="App bg-[#020617] min-h-screen overflow-x-hidden max-w-full">
       <BrowserRouter>
         <Navbar />
         <main>
