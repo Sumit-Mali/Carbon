@@ -1,17 +1,17 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Toaster } from 'sonner';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import Home from './pages/Home';
-import Products from './pages/Products';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Toaster } from "sonner";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import Home from "./pages/Home";
+import Products from "./pages/Products";
 import ProductDetails from "./pages/ProductDetails";
-import About from './pages/About';
-import Contact from './pages/Contact';
-import './App.css';
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App bg-[#020617] min-h-screen overflow-x-hidden max-w-full">
+    <div className="App bg-[#020617] min-h-screen w-full">
       <BrowserRouter>
         <Navbar />
         <main>
@@ -28,10 +28,10 @@ function App() {
           position="top-right"
           toastOptions={{
             style: {
-              background: '#0F172A',
-              color: '#F8FAFC',
-              border: '1px solid #1E293B'
-            }
+              background: "#0F172A",
+              color: "#F8FAFC",
+              border: "1px solid #1E293B",
+            },
           }}
         />
       </BrowserRouter>

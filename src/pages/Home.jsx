@@ -16,10 +16,10 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen w-full">
       {/* Hero Section */}
       <section
-        className="relative min-h-[90vh] flex items-center w-full max-w-full overflow-x-hidden"
+        className="relative min-h-[90vh] flex items-center w-full max-w-full"
         data-testid="hero-section"
       >
         {/* Background Image with Overlay */}
