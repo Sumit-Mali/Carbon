@@ -43,14 +43,18 @@ export default function Navbar() {
         }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-20 w-full overflow-hidden">
+          <div className="flex items-center justify-between h-20 w-full">
             {/* Logo */}
             <Link
               to="/"
-              className="flex items-center space-x-2"
+              className="flex items-center space-x-2 flex-shrink-0"
               data-testid="logo-link"
             >
-              <img src="../assets/logo.svg" alt = "CARBON Logo" className="lg:w-44 w-32 object-contain max-w-full"/>
+              <img
+                src="../assets/logo.svg"
+                alt="CARBON Logo"
+                className="lg:w-44 sm:w-28 w-24 object-contain max-w-full"
+              />
             </Link>
 
             {/* Desktop Navigation */}
