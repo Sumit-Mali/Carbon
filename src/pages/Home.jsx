@@ -16,10 +16,10 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen overflow-x-hidden">
+    <div className="min-h-screen">
       {/* Hero Section */}
       <section
-        className="relative min-h-[90vh] flex items-center overflow-hidden w-full max-w-full"
+        className="relative min-h-[90vh] flex items-center w-full max-w-full overflow-x-hidden"
         data-testid="hero-section"
       >
         {/* Background Image with Overlay */}
@@ -42,7 +42,8 @@ export default function Home() {
             transition={{ duration: 0.8 }}
             className="max-w-6xl"
           >
-            <h1 className="text-4xl md:text-6xl font-bold tracking-tight uppercase mb-6 leading-tight wrap-break-word"
+            <h1
+              className="text-4xl md:text-6xl font-bold tracking-tight uppercase mb-6 leading-tight wrap-break-word"
               data-testid="hero-title"
               style={{ fontFamily: "Barlow Condensed, sans-serif" }}
             >
@@ -84,7 +85,7 @@ export default function Home() {
       <ProductCategories />
 
       {/* Complete Onboard Ecosystem */}
-      <OnboardEcoSystem/>
+      <OnboardEcoSystem />
 
       {/* Why Choose CARBON */}
       <WhyChooseCarbon />
