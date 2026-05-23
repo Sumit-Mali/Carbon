@@ -36,14 +36,14 @@ export default function Navbar() {
   return (
     <>
       <nav
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+        className={`fixed top-0 left-0 right-0 z-50 overflow-hidden transition-all duration-300 ${
           scrolled
             ? "bg-slate-950/80 backdrop-blur-md border-b border-slate-800/50"
             : "bg-transparent"
         }`}
       >
-        <div className="w-full px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-20 w-full min-w-0">
+        <div className="px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between h-20 min-w-0">
             {/* Logo */}
             <Link
               to="/"
@@ -89,7 +89,7 @@ export default function Navbar() {
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               data-testid="mobile-menu-btn"
-              className="md:hidden text-white p-2 flex-shrink-0"
+              className="md:hidden text-white p-1 flex-shrink-0 ml-auto"
             >
               {mobileMenuOpen ? (
                 <X className="w-6 h-6" />
