@@ -36,29 +36,29 @@ export default function Navbar() {
   return (
     <>
       <nav
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+        className={`fixed top-0 left-0 right-0 z-50 w-screen transition-all duration-300 ${
           scrolled
             ? "bg-slate-950/80 backdrop-blur-md border-b border-slate-800/50"
             : "bg-transparent"
         }`}
       >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-20 w-full">
+        <div className="w-full px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between h-20 w-full min-w-0">
             {/* Logo */}
             <Link
               to="/"
-              className="flex items-center space-x-2 flex-shrink-0"
+              className="flex items-center space-x-2 flex-shrink-0 min-w-0"
               data-testid="logo-link"
             >
               <img
                 src="../assets/logo.svg"
                 alt="CARBON Logo"
-                className="lg:w-44 sm:w-28 w-24 object-contain max-w-full"
+                className="lg:w-40 md:w-32 w-20 object-contain max-w-full"
               />
             </Link>
 
             {/* Desktop Navigation */}
-            <div className="hidden md:flex items-center space-x-8">
+            <div className="hidden md:flex items-center space-x-8 flex-shrink-0">
               {navLinks.map((link) => (
                 <Link
                   key={link.path}
@@ -89,7 +89,7 @@ export default function Navbar() {
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               data-testid="mobile-menu-btn"
-              className="md:hidden text-white p-2"
+              className="md:hidden text-white p-2 flex-shrink-0"
             >
               {mobileMenuOpen ? (
                 <X className="w-6 h-6" />
