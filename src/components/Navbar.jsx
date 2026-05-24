@@ -36,25 +36,25 @@ export default function Navbar() {
   return (
     <>
       <nav
-        className={`fixed top-0 left-0 right-0 z-50 overflow-hidden transition-all duration-300 ${
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
           scrolled
             ? "bg-slate-950/80 backdrop-blur-md border-b border-slate-800/50"
             : "bg-transparent"
         }`}
       >
-        <div className="px-4 sm:px-6 lg:px-8">
+        <div className="px-4 sm:px-6 lg:px-8 overflow-hidden">
           <div className="flex items-center justify-between h-20 min-w-0">
             {/* Logo */}
             <Link
               to="/"
-              className="flex items-center space-x-2 flex-shrink-0 min-w-0"
+              className="flex items-center space-x-2 flex-shrink-0 min-w-0 group"
               data-testid="logo-link"
             >
-              <img
-                src="../assets/logo.svg"
-                alt="CARBON Logo"
-                className="lg:w-40 md:w-32 w-20 object-contain max-w-full"
-              />
+              <div className="flex flex-col">
+                <p className="text-xl md:text-2xl font-black tracking-wider uppercase bg-gradient-to-r from-blue-400 via-cyan-300 to-blue-500 bg-clip-text text-transparent drop-shadow-lg">
+                  CARBON
+                </p>
+              </div>
             </Link>
 
             {/* Desktop Navigation */}

@@ -9,8 +9,7 @@ const OEM = () => {
     { name: "Ashok Leyland", url: "../../src/assets/ashokleyland.webp" },
     { name: "Scania", url: "../../src/assets/scania.webp" },
     { name: "MCV", url: "../../src/assets/mcvpr.webp" },
-    { name: "MG Group, Belagavi", url: ""},
-    
+    { name: "MG Group, Belagavi", url: "" },
   ];
 
   // 2. Duplicate the array to create the infinite loop effect
@@ -18,10 +17,10 @@ const OEM = () => {
 
   return (
     <section
-      className="py-20 md:py-28 bg-slate-950 overflow-hidden"
+      className="py-20 md:py-28 bg-slate-950 overflow-hidden relative"
       data-testid="oem-section"
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16 overflow-hidden">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

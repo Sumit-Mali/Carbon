@@ -1,10 +1,13 @@
-import React from 'react'
+import React from "react";
 import { motion } from "framer-motion";
 
 const OnboardEcoSystem = () => {
   return (
-    <div>
-      <section className="py-16 md:py-20" data-testid="ecosystem-section">
+    <div className="overflow-hidden">
+      <section
+        className="py-16 md:py-20 relative"
+        data-testid="ecosystem-section"
+      >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <motion.div
@@ -52,7 +55,7 @@ const OnboardEcoSystem = () => {
         </div>
       </section>
     </div>
-  )
-}
+  );
+};
 
-export default OnboardEcoSystem
+export default OnboardEcoSystem;

@@ -29,11 +29,11 @@ const WhyChooseCarbon = () => {
 
   return (
     <section
-      className="py-20 md:py-32 bg-slate-900/30"
+      className="py-20 md:py-32 bg-slate-900/30 overflow-hidden relative"
       data-testid="why-choose-section"
     >
       {/* Modern ambient glow effect behind the title */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-150 h-100 bg-blue-600/10 blur-[100px] rounded-full pointer-events-none" />
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[400px] bg-blue-600/10 blur-[100px] rounded-full pointer-events-none -z-10" />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
