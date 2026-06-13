@@ -12,15 +12,15 @@ const OEM = () => {
     { name: "MG Group, Belagavi", url: "" },
   ];
 
-  // 2. Duplicate the array to create the infinite loop effect
-  const duplicatedLogos = [...oemLogos, ...oemLogos];
+  // 2. Duplicate array 3x for seamless infinite loop without breaks
+  const duplicatedLogos = [...oemLogos, ...oemLogos, ...oemLogos];
 
   return (
     <section
-      className="py-20 md:py-28 bg-slate-950 overflow-hidden relative"
+      className="py-10 md:py-20 bg-slate-950 overflow-hidden relative"
       data-testid="oem-section"
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16 overflow-hidden">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-8 md:mb-16">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -41,37 +41,35 @@ const OEM = () => {
       </div>
 
       {/* 3. The Marquee Container */}
-      <div className="relative w-full">
+      <div className="relative w-full overflow-hidden">
         {/* Left Fade Gradient */}
-        <div className="absolute left-0 top-0 bottom-0 z-10 w-24 bg-linear-to-r from-slate-950 to-transparent pointer-events-none" />
+        <div className="absolute left-0 top-0 bottom-0 z-10 w-16 sm:w-20 md:w-32 bg-linear-to-r from-slate-950 via-slate-950/50 to-transparent pointer-events-none" />
 
         {/* Right Fade Gradient */}
-        <div className="absolute right-0 top-0 bottom-0 z-10 w-24 bg-linear-to-l from-slate-950 to-transparent pointer-events-none" />
+        <div className="absolute right-0 top-0 bottom-0 z-10 w-16 sm:w-20 md:w-32 bg-linear-to-l from-slate-950 via-slate-950/50 to-transparent pointer-events-none" />
 
         {/* 4. The Moving Track */}
         <motion.div
-          className="flex items-center"
-          // Move left by 50% (the width of the original list)
-          animate={{ x: "-50%" }}
+          className="flex items-center gap-4 sm:gap-8 md:gap-16 py-4 sm:py-6 md:py-8"
+          animate={{ x: "-66.66%" }}
           initial={{ x: "0%" }}
           transition={{
             ease: "linear",
-            duration: 10, // Control Speed: Higher number = Slower
+            duration: 15,
             repeat: Infinity,
+            repeatType: "loop",
           }}
-          // Pause animation when user hovers over logos
-          whileHover={{ animationPlayState: "paused" }}
         >
           {duplicatedLogos.map((logo, index) => (
             <div
               key={index}
-              className="shrink-0 mx-8 md:mx-16 transition-all duration-500"
-              style={{ width: "150px" }} // Ensure consistent width for smoothness
+              className="shrink-0 flex items-center justify-center"
+              style={{ minWidth: "120px", height: "80px" }}
             >
               <img
                 src={logo.url}
                 alt={logo.name}
-                className="h-24 w-full object-contain"
+                className="h-16 sm:h-20 md:h-24 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity duration-300"
                 onError={(e) => {
                   e.target.style.display = "none";
                 }}

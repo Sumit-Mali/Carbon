@@ -1,37 +1,41 @@
-import { useState, useEffect } from 'react';
-import { Link, useSearchParams } from 'react-router-dom';
-import { motion } from 'framer-motion';
-import { Filter, X } from 'lucide-react';
-import { products, productCategories } from '../data/products';
+import { useState, useEffect } from "react";
+import { Link, useSearchParams } from "react-router-dom";
+import { motion } from "framer-motion";
+import { Filter, X } from "lucide-react";
+import { products, productCategories } from "../data/products";
 
 export default function Products() {
   const [searchParams, setSearchParams] = useSearchParams();
-  const [selectedCategory, setSelectedCategory] = useState(searchParams.get('category') || 'all');
+  const [selectedCategory, setSelectedCategory] = useState(
+    searchParams.get("category") || "all",
+  );
   const [filteredProducts, setFilteredProducts] = useState(products);
   const [mobileFilterOpen, setMobileFilterOpen] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
-  
+
   const productsPerPage = 12;
 
   useEffect(() => {
-    const category = searchParams.get('category');
+    const category = searchParams.get("category");
     if (category && category !== selectedCategory) {
       setSelectedCategory(category);
     }
   }, [searchParams]);
 
   useEffect(() => {
-    if (selectedCategory === 'all') {
+    if (selectedCategory === "all") {
       setFilteredProducts(products);
     } else {
-      setFilteredProducts(products.filter((p) => p.category === selectedCategory));
+      setFilteredProducts(
+        products.filter((p) => p.category === selectedCategory),
+      );
     }
   }, [selectedCategory]);
 
   const handleCategoryChange = (categoryId) => {
     setSelectedCategory(categoryId);
     setCurrentPage(1);
-    if (categoryId === 'all') {
+    if (categoryId === "all") {
       setSearchParams({});
     } else {
       setSearchParams({ category: categoryId });
@@ -46,7 +50,7 @@ export default function Products() {
 
   const currentProducts = filteredProducts.slice(
     indexOfFirstProduct,
-    indexOfLastProduct
+    indexOfLastProduct,
   );
 
   return (
@@ -61,12 +65,16 @@ export default function Products() {
           >
             <h1
               className="text-4xl md:text-6xl font-bold tracking-tight uppercase mb-4"
-              style={{ fontFamily: 'Barlow Condensed, sans-serif' }}
+              style={{ fontFamily: "Barlow Condensed, sans-serif" }}
             >
-              OUR <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-400 to-cyan-300">PRODUCTS</span>
+              OUR{" "}
+              <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-400 to-cyan-300">
+                PRODUCTS
+              </span>
             </h1>
             <p className="text-lg text-slate-300 max-w-2xl">
-              Explore our comprehensive range of bus equipment and entertainment solutions
+              Explore our comprehensive range of bus equipment and entertainment
+              solutions
             </p>
           </motion.div>
         </div>
@@ -77,19 +85,22 @@ export default function Products() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col lg:flex-row gap-8">
             {/* Desktop Filter Sidebar */}
-            <aside className="hidden lg:block w-64 shrink-0" data-testid="desktop-filter">
+            <aside
+              className="hidden lg:block w-64 shrink-0"
+              data-testid="desktop-filter"
+            >
               <div className="bg-slate-900/50 border border-slate-800 rounded-sm p-6 sticky top-24">
                 <h3 className="text-xl font-bold uppercase tracking-wide mb-4 text-white">
                   Filter by Category
                 </h3>
                 <div className="space-y-2">
                   <button
-                    onClick={() => handleCategoryChange('all')}
+                    onClick={() => handleCategoryChange("all")}
                     data-testid="filter-category-all"
                     className={`w-full text-left px-4 py-2 rounded-sm transition-colors ${
-                      selectedCategory === 'all'
-                        ? 'bg-blue-600 text-white'
-                        : 'text-slate-300 hover:bg-slate-800'
+                      selectedCategory === "all"
+                        ? "bg-blue-600 text-white"
+                        : "text-slate-300 hover:bg-slate-800"
                     }`}
                   >
                     All Products
@@ -101,8 +112,8 @@ export default function Products() {
                       data-testid={`filter-category-${category.id}`}
                       className={`w-full text-left px-4 py-2 rounded-sm transition-colors text-sm ${
                         selectedCategory === category.id
-                          ? 'bg-blue-600 text-white'
-                          : 'text-slate-300 hover:bg-slate-800'
+                          ? "bg-blue-600 text-white"
+                          : "text-slate-300 hover:bg-slate-800"
                       }`}
                     >
                       {category.name}
@@ -132,7 +143,9 @@ export default function Products() {
                   data-testid="mobile-filter-menu"
                 >
                   <div className="flex items-center justify-between mb-4">
-                    <h3 className="text-lg font-bold uppercase text-white">Filter</h3>
+                    <h3 className="text-lg font-bold uppercase text-white">
+                      Filter
+                    </h3>
                     <button
                       onClick={() => setMobileFilterOpen(false)}
                       className="text-slate-400 hover:text-white"
@@ -142,12 +155,12 @@ export default function Products() {
                   </div>
                   <div className="space-y-2">
                     <button
-                      onClick={() => handleCategoryChange('all')}
+                      onClick={() => handleCategoryChange("all")}
                       data-testid="mobile-filter-category-all"
                       className={`w-full text-left px-4 py-2 rounded-sm transition-colors ${
-                        selectedCategory === 'all'
-                          ? 'bg-blue-600 text-white'
-                          : 'text-slate-300 hover:bg-slate-800'
+                        selectedCategory === "all"
+                          ? "bg-blue-600 text-white"
+                          : "text-slate-300 hover:bg-slate-800"
                       }`}
                     >
                       All Products
@@ -159,8 +172,8 @@ export default function Products() {
                         data-testid={`mobile-filter-category-${category.id}`}
                         className={`w-full text-left px-4 py-2 rounded-sm transition-colors text-sm ${
                           selectedCategory === category.id
-                            ? 'bg-blue-600 text-white'
-                            : 'text-slate-300 hover:bg-slate-800'
+                            ? "bg-blue-600 text-white"
+                            : "text-slate-300 hover:bg-slate-800"
                         }`}
                       >
                         {category.name}
@@ -195,9 +208,14 @@ export default function Products() {
                       className="group relative bg-slate-900/50 border border-slate-800 hover:border-blue-500/50 transition-all duration-500 overflow-hidden rounded-sm h-full flex flex-col"
                     >
                       {/* Product Image Placeholder */}
-                      <div className="aspect-video bg-linear-to-br from-slate-800 to-slate-900 flex items-center justify-center relative overflow-hidden">
-                        <div className="text-slate-700 text-6xl font-black uppercase">
-                          <img src={product.imageUrl} alt={product.model.substring(0, 3)}/>
+                      <div className="aspect-square bg-black flex items-center justify-center relative overflow-hidden">
+                        {" "}
+                        <div className="text-slate-700 text-6xl font-black uppercase w-full h-full flex items-center justify-center">
+                          <img
+                            src={product.imageUrl}
+                            alt={product.model.substring(0, 3)}
+                            className="w-full h-full object-contain object-center blend-multiply"
+                          />
                         </div>
                         <div className="absolute inset-0 bg-linear-to-t from-slate-900 via-transparent to-transparent opacity-60" />
                       </div>
@@ -206,7 +224,9 @@ export default function Products() {
                       <div className="p-6 flex-1 flex flex-col">
                         <div className="mb-2">
                           <span className="text-xs uppercase tracking-wider text-blue-400 font-semibold">
-                            {productCategories.find((c) => c.id === product.category)?.name || product.category}
+                            {productCategories.find(
+                              (c) => c.id === product.category,
+                            )?.name || product.category}
                           </span>
                         </div>
                         <h3 className="text-xl font-bold text-white uppercase tracking-wide mb-2 group-hover:text-blue-400 transition-colors">
@@ -222,19 +242,25 @@ export default function Products() {
                             {product.displaySize && (
                               <div className="flex items-center justify-between">
                                 <span>Display:</span>
-                                <span className="text-slate-400">{product.displaySize}</span>
+                                <span className="text-slate-400">
+                                  {product.displaySize}
+                                </span>
                               </div>
                             )}
                             {product.inputVoltage && (
                               <div className="flex items-center justify-between">
                                 <span>Voltage:</span>
-                                <span className="text-slate-400">{product.inputVoltage}</span>
+                                <span className="text-slate-400">
+                                  {product.inputVoltage}
+                                </span>
                               </div>
                             )}
                             {product.power && (
                               <div className="flex items-center justify-between">
                                 <span>Power:</span>
-                                <span className="text-slate-400">{product.power}</span>
+                                <span className="text-slate-400">
+                                  {product.power}
+                                </span>
                               </div>
                             )}
                           </div>
@@ -253,14 +279,21 @@ export default function Products() {
               </div>
 
               {filteredProducts.length === 0 && (
-                <div className="text-center py-20" data-testid="no-products-message">
-                  <p className="text-slate-400 text-lg">No products found in this category</p>
+                <div
+                  className="text-center py-20"
+                  data-testid="no-products-message"
+                >
+                  <p className="text-slate-400 text-lg">
+                    No products found in this category
+                  </p>
                 </div>
               )}
               <div className="flex justify-center items-center gap-2 mt-10">
                 {/* Prev Button */}
                 <button
-                  onClick={() => setCurrentPage((prev) => Math.max(prev - 1, 1))}
+                  onClick={() =>
+                    setCurrentPage((prev) => Math.max(prev - 1, 1))
+                  }
                   disabled={currentPage === 1}
                   className="px-4 py-2 bg-slate-800 text-white rounded disabled:opacity-50 cursor-pointer"
                 >

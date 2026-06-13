@@ -51,7 +51,7 @@ export default function Navbar() {
               data-testid="logo-link"
             >
               <div className="flex flex-col">
-                <p className="text-xl md:text-2xl font-black tracking-wider uppercase bg-gradient-to-r from-blue-400 via-cyan-300 to-blue-500 bg-clip-text text-transparent drop-shadow-lg">
+                <p className="text-2xl md:text-4xl font-black tracking-wider uppercase bg-gradient-to-r from-blue-400 via-cyan-300 to-blue-500 bg-clip-text text-transparent drop-shadow-lg">
                   CARBON
                 </p>
               </div>
@@ -78,7 +78,7 @@ export default function Navbar() {
               <button
                 onClick={handleDownloadCatalogue}
                 data-testid="download-catalogue-btn"
-                className="bg-transparent border border-blue-600/50 text-blue-400 hover:bg-blue-600/10 hover:border-blue-500 font-semibold py-2 px-6 rounded-sm uppercase tracking-wider transition-all duration-300 flex items-center space-x-2"
+                className="bg-transparent border border-blue-600/50 text-blue-400 hover:bg-blue-600/10 hover:border-blue-500 font-semibold py-2 px-6 rounded-sm uppercase tracking-wider transition-all duration-300 flex items-center space-x-2 cursor-pointer shadow-[0_0_10px_rgba(37,99,235,0.2)] hover:shadow-[0_0_20px_rgba(37,99,235,0.4)]"
               >
                 <Download className="w-4 h-4" />
                 <span>Catalogue</span>
@@ -90,11 +90,18 @@ export default function Navbar() {
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               data-testid="mobile-menu-btn"
               className="md:hidden text-white p-1 flex-shrink-0 ml-auto"
+              aria-label={
+                mobileMenuOpen
+                  ? "Close navigation menu"
+                  : "Open navigation menu"
+              }
+              aria-expanded={mobileMenuOpen}
+              aria-controls="mobile-menu-content"
             >
               {mobileMenuOpen ? (
-                <X className="w-6 h-6" />
+                <X className="w-6 h-6" aria-hidden="true" />
               ) : (
-                <Menu className="w-6 h-6" />
+                <Menu className="w-6 h-6" aria-hidden="true" />
               )}
             </button>
           </div>
@@ -110,6 +117,9 @@ export default function Navbar() {
             exit={{ opacity: 0, y: -20 }}
             className="fixed inset-0 z-40 md:hidden bg-slate-950/95 backdrop-blur-lg pt-20"
             data-testid="mobile-menu"
+            role="navigation"
+            aria-label="Mobile navigation"
+            id="mobile-menu-content"
           >
             <div className="flex flex-col items-center space-y-6 p-8">
               {navLinks.map((link) => (

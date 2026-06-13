@@ -10,11 +10,17 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Company Info */}
           <div>
-            <img
-              src="../assets/logo.svg"
-              alt="CARBON Logo"
-              className="lg:w-50 w-40"
-            />
+            <Link
+              to="/"
+              className="flex items-center space-x-2 flex-shrink-0 min-w-0 group"
+              data-testid="logo-link"
+            >
+              <div className="flex flex-col">
+                <p className="text-2xl md:text-4xl font-black tracking-wider uppercase bg-gradient-to-r from-blue-400 via-cyan-300 to-blue-500 bg-clip-text text-transparent drop-shadow-lg">
+                  CARBON
+                </p>
+              </div>
+            </Link>
 
             <p className="text-slate-400 text-sm leading-relaxed my-3">
               Hi-Tech Computers India,
@@ -121,10 +127,10 @@ export default function Footer() {
               </div>
             </div>
             <iframe
-              src="https://www.google.com/maps?q=Trident+Tower+Hubli&output=embed"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3847.1664443987966!2d75.1648529!3d15.367469499999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb8d9471480c68f%3A0xceacc47ad8992565!2sCarbon%20Electronics%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1779611282533!5m2!1sen!2sin"
               className="col-span-1 md:col-span-2 w-full h-40 rounded-lg mt-4 border border-slate-800"
               loading="lazy"
-            />
+            ></iframe>
           </div>
         </div>
 

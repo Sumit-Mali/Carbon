@@ -74,10 +74,11 @@ export default function ProductDetail() {
               data-testid="product-image"
             >
               <div className="aspect-square bg-linear-to-br from-slate-800 to-slate-900 flex items-center justify-center rounded-sm border border-slate-800 relative overflow-hidden">
-                <div className="text-slate-700 text-9xl font-black uppercase">
+                <div className="text-slate-700 text-9xl font-black uppercase w-full h-full flex items-center justify-center">
                   <img
                     src={product.imageUrl}
                     alt={product.model.substring(0, 3)}
+                    className="w-full h-full object-contain object-center"
                   />
                 </div>
                 <div className="absolute top-4 left-4">
@@ -243,14 +244,19 @@ export default function ProductDetail() {
                     key={relProduct.id}
                     to={`/products/${relProduct.id}`}
                     data-testid={`related-product-${relProduct.id}`}
-                    className="group relative bg-slate-900/50 border border-slate-800 hover:border-blue-500/50 transition-all duration-500 overflow-hidden rounded-sm"
+                    className="group relative bg-slate-900/50 border border-slate-800 hover:border-blue-500/50 transition-all duration-500 overflow-hidden rounded-sm flex flex-col h-full"
                   >
-                    <div className="aspect-video bg-linear-to-br from-slate-800 to-slate-900 flex items-center justify-center relative overflow-hidden">
-                      <div className="text-slate-700 text-6xl font-black uppercase opacity-20">
-                        {relProduct.model.substring(0, 3)}
+                    <div className="aspect-square bg-linear-to-br from-slate-800 to-slate-900 flex items-center justify-center relative overflow-hidden">
+                      <div className="w-full h-full flex items-center justify-center">
+                        <img
+                          src={relProduct.imageUrl}
+                          alt={relProduct.model.substring(0, 3)}
+                          className="w-full h-full object-contain object-center"
+                        />
                       </div>
+                      <div className="absolute inset-0 bg-linear-to-t from-slate-900 via-transparent to-transparent opacity-60" />
                     </div>
-                    <div className="p-4">
+                    <div className="p-4 flex-1 flex flex-col">
                       <h3 className="text-lg font-bold text-white uppercase tracking-wide mb-1 group-hover:text-blue-400 transition-colors">
                         {relProduct.name}
                       </h3>

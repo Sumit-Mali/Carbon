@@ -25,7 +25,12 @@ export default function Contact() {
     e.preventDefault();
 
     emailjs
-      .send("service_gb2rpil", "template_euw29pl", formData, "lXUrv8rDnX8kzQNgq")
+      .send(
+        "service_gb2rpil",
+        "template_euw29pl",
+        formData,
+        "lXUrv8rDnX8kzQNgq",
+      )
       .then(
         () => {
           toast.success("Message sent successfully!");
@@ -221,7 +226,7 @@ export default function Contact() {
                         htmlFor="phone"
                         className="block text-sm font-semibold text-slate-300 uppercase tracking-wide mb-2"
                       >
-                        Phone
+                        Phone *
                       </label>
                       <input
                         type="tel"
