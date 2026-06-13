@@ -4,11 +4,11 @@ import React from "react";
 const OEM = () => {
   // 1. Define Logos
   const oemLogos = [
-    { name: "Volvo", url: "../../src/assets/volvo.webp" },
-    { name: "Tata Motors", url: "../../src/assets/tatamotors.webp" },
-    { name: "Ashok Leyland", url: "../../src/assets/ashokleyland.webp" },
-    { name: "Scania", url: "../../src/assets/scania.webp" },
-    { name: "MCV", url: "../../src/assets/mcvpr.webp" },
+    { name: "Volvo", url: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363289/volvo_m6yxm9.webp" },
+    { name: "Tata Motors", url: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363284/tatamotors_jgb7lo.webp" },
+    { name: "Ashok Leyland", url: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363237/ashokleyland_ncm6zo.webp" },
+    { name: "Scania", url: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363281/scania_w9runt.webp" },
+    { name: "MCV", url: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363267/mcvpr_mcjtmd.webp" },
     { name: "MG Group, Belagavi", url: "" },
   ];
 

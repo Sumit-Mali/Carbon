@@ -15,8 +15,20 @@ export default function Footer() {
               className="flex items-center space-x-2 flex-shrink-0 min-w-0 group"
               data-testid="logo-link"
             >
-              <div className="flex flex-col">
+              {/* <div className="flex flex-col">
                 <p className="text-2xl md:text-4xl font-black tracking-wider uppercase bg-gradient-to-r from-blue-400 via-cyan-300 to-blue-500 bg-clip-text text-transparent drop-shadow-lg">
+                  CARBON
+                </p>
+              </div> */}
+              <div className="flex flex-col">
+                <p
+                  className="text-2xl md:text-4xl font-black tracking-wider uppercase"
+                  style={{
+                    color: "#f5f5f5",
+                    fontFamily: "Barlow Condensed, sans-serif",
+                    WebkitTextStroke: "1px rgba(14, 165, 233, 0.7)",
+                  }}
+                >
                   CARBON
                 </p>
               </div>
