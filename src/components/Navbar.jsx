@@ -54,9 +54,9 @@ export default function Navbar() {
                 <p
                   className="text-2xl md:text-4xl font-black tracking-wider uppercase"
                   style={{
-                    color: "#f5f5f5",
+                    color: "#ffffff",
                     fontFamily: "Barlow Condensed, sans-serif",
-                    WebkitTextStroke: "1.5px #0ea5e9",
+                    WebkitTextStroke: "0.5px #3b82f6",
                   }}
                 >
                   CARBON
