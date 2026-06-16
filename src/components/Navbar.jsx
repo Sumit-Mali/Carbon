@@ -51,7 +51,14 @@ export default function Navbar() {
               data-testid="logo-link"
             >
               <div className="flex flex-col">
-                <p className="text-2xl md:text-4xl font-black tracking-wider uppercase bg-gradient-to-r from-blue-400 via-cyan-300 to-blue-500 bg-clip-text text-transparent drop-shadow-lg">
+                <p
+                  className="text-2xl md:text-4xl font-black tracking-wider uppercase"
+                  style={{
+                    color: "#f5f5f5",
+                    fontFamily: "Barlow Condensed, sans-serif",
+                    WebkitTextStroke: "1.5px #0ea5e9",
+                  }}
+                >
                   CARBON
                 </p>
               </div>
