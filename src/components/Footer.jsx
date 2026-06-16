@@ -26,7 +26,7 @@ export default function Footer() {
                   style={{
                     color: "#f5f5f5",
                     fontFamily: "Barlow Condensed, sans-serif",
-                    WebkitTextStroke: "1px rgba(14, 165, 233, 0.7)",
+                    WebkitTextStroke: "1.5px #0ea5e9",
                   }}
                 >
                   CARBON
