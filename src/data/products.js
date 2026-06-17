@@ -35,7 +35,8 @@ export const products = [
       "Full function remote control",
       "12V output for up to 2 Cameras with Aero connectors",
     ],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363269/monitor-1_ulxsf6.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363269/monitor-1_ulxsf6.jpg",
   },
   {
     id: 2,
@@ -54,7 +55,8 @@ export const products = [
       "Full function remote control",
       "12V output for up to 4 cameras with Aero connectors",
     ],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363270/monitor-2_rkaxwr.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363270/monitor-2_rkaxwr.jpg",
   },
   {
     id: 3,
@@ -75,7 +77,8 @@ export const products = [
       "Desktop stand included",
       "Camera: Sharp 1/4 CCD, 420 TV Lines, 120° viewing angle, IP 67/68 waterproof",
     ],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363280/monitor-19_knas2a.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363280/monitor-19_knas2a.jpg",
   },
   {
     id: 4,
@@ -93,7 +96,8 @@ export const products = [
       "Remote Control",
       "1-4 DIN Pin & 1 RCA inputs",
     ],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363271/monitor-4_kpt4ex.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363271/monitor-4_kpt4ex.jpg",
   },
   {
     id: 5,
@@ -111,7 +115,8 @@ export const products = [
       "Full Function Remote",
       "Must use CIP 2412/N-5",
     ],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363272/monitor-5_khxkpt.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363272/monitor-5_khxkpt.jpg",
   },
   {
     id: 6,
@@ -130,7 +135,8 @@ export const products = [
       "Full Function Remote Control",
       "Must use CIP-2412N/5",
     ],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363271/monitor-3_axojiv.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363271/monitor-3_axojiv.jpg",
   },
   {
     id: 7,
@@ -147,7 +153,8 @@ export const products = [
       "Remote Control",
       "1-4 Pin & 1 RCA inputs",
     ],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363272/monitor-6_px7yfg.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363272/monitor-6_px7yfg.jpg",
   },
   {
     id: 8,
@@ -165,7 +172,8 @@ export const products = [
       "Full Function Remote Control",
       "Must use CIP-2412N/5",
     ],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363273/monitor-7_f2zfp4.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363273/monitor-7_f2zfp4.jpg",
   },
   {
     id: 9,
@@ -184,7 +192,8 @@ export const products = [
       "Wireless Document transmission",
       "1 AV input, 1 AV output, 1 HDMI Output, USB-1",
     ],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363274/monitor-8_sd7akv.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363274/monitor-8_sd7akv.jpg",
   },
   {
     id: 10,
@@ -201,7 +210,8 @@ export const products = [
     resolution: "1366x768",
     contrastRatio: "500:1",
     features: ["Flip Down Monitor", "Full Function Remote Control"],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363274/monitor-9_bfm28m.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363274/monitor-9_bfm28m.jpg",
   },
   {
     id: 11,
@@ -219,7 +229,8 @@ export const products = [
       "Full Function Remote Control",
       "Must use CIP-2412N/5",
     ],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363275/monitor-10_k3gltk.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363275/monitor-10_k3gltk.jpg",
   },
   {
     id: 12,
@@ -235,7 +246,8 @@ export const products = [
     brightness: "250cd/m2",
     contrastRatio: "700:1",
     features: ["Full Function Remote Control", "Versatile mounting options"],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363275/monitor-11_nvxz8q.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363275/monitor-11_nvxz8q.jpg",
   },
   {
     id: 13,
@@ -251,7 +263,8 @@ export const products = [
       "USB Audio Via FM",
       "Multimedia playback",
     ],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363276/monitor-12_u8ylit.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363276/monitor-12_u8ylit.jpg",
   },
   {
     id: 14,
@@ -271,7 +284,8 @@ export const products = [
       "Full Function Remote Control",
       "Must use CIP-2412N/5",
     ],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363277/monitor-13_djqcll.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363277/monitor-13_djqcll.jpg",
   },
   {
     id: 15,
@@ -288,7 +302,8 @@ export const products = [
       "Fixed mount design",
       "Remote Control",
     ],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363277/monitor-14_izwmjd.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363277/monitor-14_izwmjd.jpg",
   },
   {
     id: 16,
@@ -308,7 +323,8 @@ export const products = [
       "Full Function Remote Control",
       "Foldable design",
     ],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363278/monitor-15_kpay0r.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363278/monitor-15_kpay0r.jpg",
   },
   {
     id: 17,
@@ -328,7 +344,8 @@ export const products = [
       "Full function Remote Control",
       "HDMI Input Optional",
     ],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363278/monitor-16_cyb39o.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363278/monitor-16_cyb39o.jpg",
   },
   {
     id: 18,
@@ -348,7 +365,8 @@ export const products = [
       "USB Port",
       "Full Function Remote Control",
     ],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363279/monitor-17_gkl9ky.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363279/monitor-17_gkl9ky.jpg",
   },
   {
     id: 19,
@@ -368,7 +386,8 @@ export const products = [
       "USB Port",
       "Large display size",
     ],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363280/monitor-18_pbtpjy.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363280/monitor-18_pbtpjy.jpg",
   },
 
   // Head Units
@@ -397,7 +416,8 @@ export const products = [
       "USB",
       "AUX",
     ],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363254/dvd-1_nvi06j.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363254/dvd-1_nvi06j.jpg",
   },
   {
     id: 21,
@@ -428,7 +448,8 @@ export const products = [
       "DIVX",
       "JPEG",
     ],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363254/dvd-2_b7twxx.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363254/dvd-2_b7twxx.jpg",
   },
   {
     id: 22,
@@ -447,7 +468,8 @@ export const products = [
       "Full Function Remote Control",
     ],
     supportedMedia: ["AUX", "USB", "MP3", "SD", "4x50 WATTS", "FM Radio"],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363255/dvd-3_dyivry.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363255/dvd-3_dyivry.jpg",
   },
   {
     id: 23,
@@ -461,7 +483,8 @@ export const products = [
     workingTemperature: "-10~60°C",
     bluetoothVersion: "5.1",
     supportedMedia: ["AUX", "USB", "MP3", "SD", "4x45 WATTS", "FM Radio"],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363255/dvd-4_g8p4lc.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363255/dvd-4_g8p4lc.jpg",
   },
   {
     id: 24,
@@ -493,7 +516,8 @@ export const products = [
       "DIVX",
       "JPEG",
     ],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363256/dvd-5_rmrlzq.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363256/dvd-5_rmrlzq.jpg",
   },
   {
     id: 25,
@@ -506,7 +530,8 @@ export const products = [
     maxCurrentConsumption: "10A",
     output: "60W x 4 Max Power Output",
     supportedMedia: ["USB", "FM Radio", "MPS", "Video"],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363257/dvd-6_fe0v28.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363257/dvd-6_fe0v28.jpg",
   },
   {
     id: 26,
@@ -542,7 +567,8 @@ export const products = [
       "FM RADIO",
       "BLUETOOTH",
     ],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363264/headunits-3_mfoyeo.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363264/headunits-3_mfoyeo.jpg",
   },
   {
     id: 27,
@@ -562,7 +588,8 @@ export const products = [
       "OSD Menu",
     ],
     supportedMedia: ["AHD", '7"', "HI-RES", "LED", "16:9", "AERO CONNECTOR"],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363263/headunits-1_pla9yf.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363263/headunits-1_pla9yf.jpg",
   },
   {
     id: 28,
@@ -595,7 +622,8 @@ export const products = [
       "16:9",
       "FM RADIO",
     ],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363264/headunits-2_qrhqhu.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363264/headunits-2_qrhqhu.jpg",
   },
 
   // Convertors
@@ -611,7 +639,8 @@ export const products = [
       "Specially designed for DVD & CD MP3 Players",
       "Not to be used with LCD/LED Monitors",
     ],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363249/converters-1_gze0mb.png",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363249/converters-1_gze0mb.png",
   },
   {
     id: 30,
@@ -623,7 +652,8 @@ export const products = [
     switchingType: "Switching Type",
     application: "For use with any 12V DC Products on 24V DC Bus/Coach Trucks",
     features: ["Not to be used with LCD/LED Monitors", "20A capacity"],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363250/converters-2_rn0jfi.png",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363250/converters-2_rn0jfi.png",
   },
   {
     id: 31,
@@ -640,7 +670,8 @@ export const products = [
       "Specially designed for 12V range of LED Monitors",
       "Isolated design",
     ],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363250/converters-3_li6qrq.png",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363250/converters-3_li6qrq.png",
   },
 
   // Power Inverters
@@ -664,7 +695,8 @@ export const products = [
       "USB output 5V, can charge all kinds of digital products",
       "Multiple protection functions: low voltage, over voltage, overload, over temperature, short circuit, reverse connection",
     ],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363251/converters-4_rpxppv.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363251/converters-4_rpxppv.jpg",
   },
   {
     id: 33,
@@ -697,7 +729,8 @@ export const products = [
       "Overload",
       "Over temperature",
     ],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363252/converters-5_zu1fzt.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363252/converters-5_zu1fzt.jpg",
   },
   {
     id: 34,
@@ -730,7 +763,8 @@ export const products = [
       "Overload",
       "Over temperature",
     ],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363253/converters-6_laxsjc.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363253/converters-6_laxsjc.jpg",
   },
 
   // Cameras
@@ -745,7 +779,8 @@ export const products = [
     maxCurrentConsumption: "200mA",
     viewAngle: "120°",
     features: ["Special Water-Resistant", "PAL TV System", "Night Vision"],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363240/camera-1_ubw5yu.png",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363240/camera-1_ubw5yu.png",
   },
   {
     id: 36,
@@ -761,7 +796,8 @@ export const products = [
     connector: "Aero Connector",
     viewAngle: "180°",
     features: ["Vandal proof design", "Infrared night vision"],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363240/camera-2_fg7ym5.png",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363240/camera-2_fg7ym5.png",
   },
   {
     id: 37,
@@ -781,7 +817,8 @@ export const products = [
       "Distance Grid",
       "10m IR Distance",
     ],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363241/camera-3_mtwhlz.png",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363241/camera-3_mtwhlz.png",
   },
   {
     id: 38,
@@ -796,7 +833,8 @@ export const products = [
       "Metal body",
       "IR LED Light For Night Vision",
     ],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363242/camera-4_ycvv06.png",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363242/camera-4_ycvv06.png",
   },
   {
     id: 39,
@@ -813,7 +851,8 @@ export const products = [
       "Distance Grid",
       "10m IR Distance",
     ],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363242/camera-5_fzm5vy.png",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363242/camera-5_fzm5vy.png",
   },
   {
     id: 40,
@@ -828,7 +867,8 @@ export const products = [
     viewAngle: "120°",
     connector: "4 Pin Aero Connector",
     features: ["Water Resistant", "IR LED Light For Night Vision"],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363243/camera-6_kxtpmf.png",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363243/camera-6_kxtpmf.png",
   },
   {
     id: 41,
@@ -844,7 +884,8 @@ export const products = [
     imageSensor: '1/3" CMOS, 7440h',
     resolution: "480 TV Lines",
     features: ["IR LED Light For Night Vision"],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363243/camera-7_chwjwn.png",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363243/camera-7_chwjwn.png",
   },
   {
     id: 42,
@@ -859,7 +900,8 @@ export const products = [
     viewAngle: "120°",
     connector: "4 Pin Aero Connector",
     features: ["Water Resistant", "Side mounting design"],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363244/camera-8_kuays0.png",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363244/camera-8_kuays0.png",
   },
   {
     id: 43,
@@ -879,7 +921,8 @@ export const products = [
       "IP68 Rating",
       "Truly waterproof guaranteed",
     ],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363245/camera-9_o3rwcy.png",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363245/camera-9_o3rwcy.png",
   },
   {
     id: 44,
@@ -898,7 +941,8 @@ export const products = [
       "Designed For Simple Installation",
       "IR LED Light For Night Vision",
     ],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363245/camera-10_rwqiqt.png",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363245/camera-10_rwqiqt.png",
   },
   {
     id: 45,
@@ -917,7 +961,8 @@ export const products = [
     tvSystem: "NTSC or PAL",
     shellMaterial: "ABS Plastic",
     features: ["High definition AHD", "Front windscreen mounting"],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363246/camera-11_n9gkpp.png",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363246/camera-11_n9gkpp.png",
   },
 
   // DVRs
@@ -938,7 +983,8 @@ export const products = [
     cameraSupport: "Supports AHD & Analog Camera",
     alarms: "Video loss & Hard Disk failure Alarm",
     recordingQuality: "Class 1 to 6 Option",
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363246/camera-11_n9gkpp.png",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363258/dvr-2_dlgwc5.jpg",
   },
   {
     id: 47,
@@ -958,7 +1004,8 @@ export const products = [
     alarms: "Video loss & Hard Disk failure Alarm",
     recordingQuality: "Class 1 to 6 Option",
     connectivity: "GPS & 4G Enabled, Wifi Optional",
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363258/dvr-2_dlgwc5.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363258/dvr-2_dlgwc5.jpg",
   },
   {
     id: 48,
@@ -974,7 +1021,8 @@ export const products = [
     recording: "4CH local recording with 720P resolution in real time",
     storage: "Supports SD Card storage up to 512 GB",
     features: ["High compression rate & image quality"],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363259/dvr-3_lnq5e7.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363259/dvr-3_lnq5e7.jpg",
   },
   {
     id: 49,
@@ -994,7 +1042,8 @@ export const products = [
     alarms: "Video loss & Hard Disk failure Alarm",
     recordingQuality: "Class 1 to 6 Option",
     connectivity: "GPS Optional, 4G Optional, Wifi Optional",
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363259/dvr-4_ehht6g.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363259/dvr-4_ehht6g.jpg",
   },
   {
     id: 50,
@@ -1015,7 +1064,8 @@ export const products = [
       "Support disaster recovery interface",
     ],
     connectivity: "AHD, SDCARD, DVR, 4G, G-Sensor, GPS",
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363260/dvr-5_wc82i8.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363260/dvr-5_wc82i8.jpg",
   },
 
   // Amplifiers
@@ -1031,7 +1081,8 @@ export const products = [
     outputImpedance: "75 Ohm",
     channels: "1:7 Channel, 7 Video Outputs",
     features: ["With Individual channel Video Gain Control"],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363260/dvr-6_j8ltfd.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363260/dvr-6_j8ltfd.jpg",
   },
   {
     id: 52,
@@ -1044,7 +1095,8 @@ export const products = [
     outputImpedance: "75 Ohm",
     channels: "4 Video Outputs",
     features: ["With Individual channel Video Gain Control"],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363261/dvr-7_c1seyw.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363261/dvr-7_c1seyw.jpg",
   },
   {
     id: 53,
@@ -1061,7 +1113,8 @@ export const products = [
       "Switch on the Amplifier Panel",
       "Auto Mute Function for Audio when Microphone Activated",
     ],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363261/dvr-8_tm5at4.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363261/dvr-8_tm5at4.jpg",
   },
 
   // Speakers
@@ -1079,7 +1132,8 @@ export const products = [
     power: "80 Watts RMS / 100 Watts peak",
     frequencyResponse: "65 Hz-20 KHz",
     sensitivity: "89 Db/M.W",
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363282/speaker-1_iiqlvk.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363282/speaker-1_iiqlvk.jpg",
   },
   {
     id: 55,
@@ -1093,7 +1147,8 @@ export const products = [
     voiceCoil: 'ASV 1" High Temp. Voice Coil',
     magnet: "10 Oz Magnet",
     impedance: "4 Ohms",
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363282/speaker-2_a76fko.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363282/speaker-2_a76fko.jpg",
   },
   {
     id: 56,
@@ -1107,7 +1162,8 @@ export const products = [
     voiceCoil: 'ASV 1" High Temp. Voice Coil',
     magnet: "10 Oz Magnet",
     impedance: "4 Ohms",
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363283/speaker-3_xamigl.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363283/speaker-3_xamigl.jpg",
   },
   {
     id: 57,
@@ -1120,7 +1176,8 @@ export const products = [
     peakPower: "450W",
     voiceCoil: '1"',
     outputImpedance: "4 Ohms",
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363284/speaker-4_ughwu9.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363284/speaker-4_ughwu9.jpg",
   },
 
   // Cables
@@ -1134,7 +1191,108 @@ export const products = [
       "Gold Plated Connectors",
       "3.5 meter length and other lengths available",
     ],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363238/cable-1_xoknjs.png",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363238/cable-1_xoknjs.png",
+  },
+  {
+    id: 61,
+    name: "CVC-1050",
+    category: "cables",
+    model: "CVC-1050",
+    description: "5.0 Mtr. Video Cable",
+    features: ["Gold Plated Connectors", "5.0 meter length"],
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363238/cable-1_xoknjs.png",
+  },
+  {
+    id: 85,
+    name: "CVC-1060",
+    category: "cables",
+    model: "CVC-1060",
+    description: "6.0 Mtr. Video Cable",
+    features: ["Gold Plated Connectors", "6.0 meter length"],
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363238/cable-1_xoknjs.png",
+  },
+  {
+    id: 86,
+    name: "CVC-1065",
+    category: "cables",
+    model: "CVC-1065",
+    description: "6.5 Mtr. Video Cable",
+    features: ["Gold Plated Connectors", "6.5 meter length"],
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363238/cable-1_xoknjs.png",
+  },
+  {
+    id: 62,
+    name: "CVC-1080",
+    category: "cables",
+    model: "CVC-1080",
+    description: "8.0 Mtr. Video Cable",
+    features: ["Gold Plated Connectors", "8.0 meter length"],
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363238/cable-1_xoknjs.png",
+  },
+  {
+    id: 63,
+    name: "CVC-1100",
+    category: "cables",
+    model: "CVC-1100",
+    description: "10 Mtr. Video Cable",
+    features: ["Gold Plated Connectors", "10 meter length"],
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363238/cable-1_xoknjs.png",
+  },
+  {
+    id: 64,
+    name: "CVC-1150",
+    category: "cables",
+    model: "CVC-1150",
+    description: "15 Mtr. Video Cable",
+    features: ["Gold Plated Connectors", "15 meter length"],
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363238/cable-1_xoknjs.png",
+  },
+  {
+    id: 65,
+    name: "CVC-1200",
+    category: "cables",
+    model: "CVC-1200",
+    description: "20 Mtr. Video Cable",
+    features: ["Gold Plated Connectors", "20 meter length"],
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363238/cable-1_xoknjs.png",
+  },
+  {
+    id: 87,
+    name: "CVC-1000",
+    category: "cables",
+    model: "CVC-1000",
+    description: "Y - Cable 20cm black cable with gold plated connectors",
+    features: ["Gold Plated Connectors", "20cm length"],
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363238/cable-1_xoknjs.png",
+  },
+  {
+    id: 88,
+    name: "CVC-1015",
+    category: "cables",
+    model: "CVC-1015",
+    description: "1.5 Mtr. Video Cable",
+    features: ["Gold Plated Connectors", "1.5 meter length"],
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363238/cable-1_xoknjs.png",
+  },
+  {
+    id: 89,
+    name: "CVC-1025",
+    category: "cables",
+    model: "CVC-1025",
+    description: "2.5 Mtr. Video Cable",
+    features: ["Gold Plated Connectors", "2.5 meter length"],
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363238/cable-1_xoknjs.png",
   },
   {
     id: 59,
@@ -1146,7 +1304,8 @@ export const products = [
       "Gold Plated Connectors",
       "15.0 meter length and other lengths available",
     ],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363239/cable-2_hnli6q.png",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363239/cable-2_hnli6q.png",
   },
   {
     id: 60,
@@ -1158,83 +1317,153 @@ export const products = [
       "Gold Plated Connectors",
       "20.0 meter length and other lengths available",
     ],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363239/cable-2_hnli6q.png",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363239/cable-2_hnli6q.png",
   },
-  // {
-  //   id: 61,
-  //   name: "CVC-1065",
-  //   category: "cables",
-  //   model: "CVC-1065",
-  //   description: "6.5 Mtr. Video Cable",
-  //   features: ["Gold Plated Connectors", "6.5 meter length"],
-  //   imageUrl: "../../src/assets/cable-4.jpg"
-  // },
-  // {
-  //   id: 62,
-  //   name: "CVC-1080",
-  //   category: "cables",
-  //   model: "CVC-1080",
-  //   description: "8.0 Mtr. Video Cable",
-  //   features: ["Gold Plated Connectors", "8.0 meter length"],
-  //   imageUrl: "../../src/assets/cable-5.jpg"
-  // },
-  // {
-  //   id: 63,
-  //   name: "CVC-1100",
-  //   category: "cables",
-  //   model: "CVC-1100",
-  //   description: "10 Mtr. Video Cable",
-  //   features: ["Gold Plated Connectors", "10 meter length"],
-  //   imageUrl: "../../src/assets/cable-6.jpg"
-  // },
-  // {
-  //   id: 64,
-  //   name: "CVC-1150",
-  //   category: "cables",
-  //   model: "CVC-1150",
-  //   description: "15 Mtr. Video Cable",
-  //   features: ["Gold Plated Connectors", "15 meter length"],
-  //   imageUrl: "../../src/assets/cable-7.jpg"
-  // },
-  // {
-  //   id: 65,
-  //   name: "CVC-1200",
-  //   category: "cables",
-  //   model: "CVC-1200",
-  //   description: "20 Mtr. Video Cable",
-  //   features: ["Gold Plated Connectors", "20 meter length"],
-  //   imageUrl: "../../src/assets/cable-8.jpg"
-  // },
-  // {
-  //   id: 66,
-  //   name: "CVPC-1150D",
-  //   category: "cables",
-  //   model: "CVPC-1150D",
-  //   description: "15 Meter Video + Power Cable with Aero Connector",
-  //   application: "Used to connect Rear View Camera & Monitor",
-  //   features: [
-  //     'Easy Plug & Play Cable Between 7" Dash Board Monitor & Rear View Camera',
-  //     "Aero Connectors",
-  //     "Can be used for DVR also",
-  //     "Also available in customized Lengths",
-  //   ],
-  //   imageUrl: "../../src/assets/cable-9.jpg"
-  // },
-  // {
-  //   id: 67,
-  //   name: "CVPC-2000D",
-  //   category: "cables",
-  //   model: "CVPC-2000D",
-  //   description: "20 Meter Video + Power Cable with Aero Connector",
-  //   application: "Used to connect Rear View Camera & Monitor",
-  //   features: [
-  //     'Easy Plug & Play Cable Between 7" Dash Board Monitor & Rear View Camera',
-  //     "Aero Connectors",
-  //     "Can be used for DVR also",
-  //     "Also available in customized Lengths",
-  //   ],
-  //   imageUrl: "../../src/assets/cable-10.jpg"
-  // },
+  {
+    id: 66,
+    name: "CVPC-1020D",
+    category: "cables",
+    model: "CVPC-1020D",
+    description: "2 Meter Video + Power Cable with Aero Connector",
+    application: "Used to connect Rear View Camera & Monitor",
+    features: [
+      'Easy Plug & Play Cable Between 7" Dash Board Monitor & Rear View Camera',
+      "Aero Connectors",
+      "Can be used for DVR also",
+      "Also available in customized Lengths",
+    ],
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363239/cable-2_hnli6q.png",
+  },
+  {
+    id: 67,
+    name: "CVPC-1030D",
+    category: "cables",
+    model: "CVPC-1030D",
+    description: "3 Meter Video + Power Cable with Aero Connector",
+    application: "Used to connect Rear View Camera & Monitor",
+    features: [
+      'Easy Plug & Play Cable Between 7" Dash Board Monitor & Rear View Camera',
+      "Aero Connectors",
+      "Can be used for DVR also",
+      "Also available in customized Lengths",
+    ],
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363239/cable-2_hnli6q.png",
+  },
+  {
+    id: 90,
+    name: "CVPC-1045D",
+    category: "cables",
+    model: "CVPC-1045D",
+    description: "4.5 Meter Video + Power Cable with Aero Connector",
+    application: "Used to connect Rear View Camera & Monitor",
+    features: [
+      'Easy Plug & Play Cable Between 7" Dash Board Monitor & Rear View Camera',
+      "Aero Connectors",
+      "Can be used for DVR also",
+      "Also available in customized Lengths",
+    ],
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363239/cable-2_hnli6q.png",
+  },
+  {
+    id: 91,
+    name: "CVPC-1050D",
+    category: "cables",
+    model: "CVPC-1050D",
+    description: "5 Meter Video + Power Cable with Aero Connector",
+    application: "Used to connect Rear View Camera & Monitor",
+    features: [
+      'Easy Plug & Play Cable Between 7" Dash Board Monitor & Rear View Camera',
+      "Aero Connectors",
+      "Can be used for DVR also",
+      "Also available in customized Lengths",
+    ],
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363239/cable-2_hnli6q.png",
+  },
+  {
+    id: 92,
+    name: "CVPC-1060D",
+    category: "cables",
+    model: "CVPC-1060D",
+    description: "6Meter Video + Power Cable with Aero Connector",
+    application: "Used to connect Rear View Camera & Monitor",
+    features: [
+      'Easy Plug & Play Cable Between 7" Dash Board Monitor & Rear View Camera',
+      "Aero Connectors",
+      "Can be used for DVR also",
+      "Also available in customized Lengths",
+    ],
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363239/cable-2_hnli6q.png",
+  },
+  {
+    id: 93,
+    name: "CVPC-1065D",
+    category: "cables",
+    model: "CVPC-1065D",
+    description: "6.5 Meter Video + Power Cable with Aero Connector",
+    application: "Used to connect Rear View Camera & Monitor",
+    features: [
+      'Easy Plug & Play Cable Between 7" Dash Board Monitor & Rear View Camera',
+      "Aero Connectors",
+      "Can be used for DVR also",
+      "Also available in customized Lengths",
+    ],
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363239/cable-2_hnli6q.png",
+  },
+  {
+    id: 94,
+    name: "CVPC-1070D",
+    category: "cables",
+    model: "CVPC-1070D",
+    description: "7 Meter Video + Power Cable with Aero Connector",
+    application: "Used to connect Rear View Camera & Monitor",
+    features: [
+      'Easy Plug & Play Cable Between 7" Dash Board Monitor & Rear View Camera',
+      "Aero Connectors",
+      "Can be used for DVR also",
+      "Also available in customized Lengths",
+    ],
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363239/cable-2_hnli6q.png",
+  },
+  {
+    id: 95,
+    name: "CVPC-1090D",
+    category: "cables",
+    model: "CVPC-1090D",
+    description: "9 Meter Video + Power Cable with Aero Connector",
+    application: "Used to connect Rear View Camera & Monitor",
+    features: [
+      'Easy Plug & Play Cable Between 7" Dash Board Monitor & Rear View Camera',
+      "Aero Connectors",
+      "Can be used for DVR also",
+      "Also available in customized Lengths",
+    ],
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363239/cable-2_hnli6q.png",
+  },
+  {
+    id: 96,
+    name: "CVPC-1000D",
+    category: "cables",
+    model: "CVPC-1000D",
+    description: "10 Meter Video + Power Cable with Aero Connector",
+    application: "Used to connect Rear View Camera & Monitor",
+    features: [
+      'Easy Plug & Play Cable Between 7" Dash Board Monitor & Rear View Camera',
+      "Aero Connectors",
+      "Can be used for DVR also",
+      "Also available in customized Lengths",
+    ],
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363239/cable-2_hnli6q.png",
+  },
 
   // USB Chargers
   {
@@ -1246,7 +1475,8 @@ export const products = [
     inputVoltage: "12/24V DC",
     output: "5V 2.4 A",
     features: ["Blue LED", "cover & panel"],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781364810/usb-1_dikf3n.png",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781364810/usb-1_dikf3n.png",
   },
   {
     id: 69,
@@ -1257,7 +1487,8 @@ export const products = [
     inputVoltage: "12/24V DC",
     output: "5V 2.1 A",
     features: ["Dual USB ports", "LED indicator", "Cover & Panel included"],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363286/usb-2_cxmaq5.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363286/usb-2_cxmaq5.jpg",
   },
   {
     id: 70,
@@ -1270,7 +1501,8 @@ export const products = [
     output: "5V 2.1A + 2.1A",
     totalOutput: "4.2A",
     features: ["USB-A and USB-C ports"],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363287/usb-4_pwsgze.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363287/usb-4_pwsgze.jpg",
   },
   {
     id: 71,
@@ -1282,7 +1514,8 @@ export const products = [
     inputVoltage: "12/24V DC",
     output: "5V 3.1A",
     features: ["Blue LED", "Cover & Panel", "High output current"],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363287/usb-5_mgacjv.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363287/usb-5_mgacjv.jpg",
   },
   {
     id: 72,
@@ -1295,7 +1528,8 @@ export const products = [
     output: "5V 2.1A + 2.1A",
     totalOutput: "4.2A",
     features: ["Dual port design", "Wide voltage compatibility"],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363287/usb-4_pwsgze.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363287/usb-4_pwsgze.jpg",
   },
 
   // Sensors
@@ -1313,7 +1547,8 @@ export const products = [
       "Excellent Reproduction of Voice & Music",
       "Specially Designed Dashboard Holder For Bus",
     ],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363267/mic-1_xlgf80.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363267/mic-1_xlgf80.jpg",
   },
   {
     id: 74,
@@ -1330,7 +1565,8 @@ export const products = [
     ratedCurrent: "20mA-200mA",
     detectionDistance: "0.2~1.5(m)",
     alarm: "Three colors alarm",
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363268/mic-2_e3qbfm.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363268/mic-2_e3qbfm.jpg",
   },
   {
     id: 75,
@@ -1346,7 +1582,8 @@ export const products = [
       "Volume Adjustable",
       "Water resistant ECU",
     ],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363269/mic-3_bwouvt.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363269/mic-3_bwouvt.jpg",
   },
 
   // Accessories
@@ -1364,7 +1601,8 @@ export const products = [
       "OTG/HOST: Connect & Play MP3/4/portable HDD, enclosure, U-Disk/Card Reader",
     ],
     storageOptions: "500GB / 1TB HDD",
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363238/antennna-1_xedaut.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363238/antennna-1_xedaut.jpg",
   },
   {
     id: 77,
@@ -1375,7 +1613,8 @@ export const products = [
     outputImpedance: "75 Ohms",
     connector: "Car radio Banana plug",
     cableLength: "8 Mtr",
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363238/antenna-2_zb9xol.png",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363238/antenna-2_zb9xol.png",
   },
   {
     id: 78,
@@ -1388,7 +1627,8 @@ export const products = [
     connector: "Car radio Banana plug",
     cableLength: "3 Mtr",
     features: ["Windscreen mounting"],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363238/antenna-3_zrevbu.png",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363238/antenna-3_zrevbu.png",
   },
 
   // Clocks & Fridge
@@ -1401,7 +1641,8 @@ export const products = [
     voltageRange: "10~32V DC",
     mounting: "Wall Mount For Easy Installation",
     features: ["Time with Indoor & Outdoor Temperature"],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363247/clock-1_p4ltom.png",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363247/clock-1_p4ltom.png",
   },
   {
     id: 80,
@@ -1416,7 +1657,8 @@ export const products = [
       "With Indoor Temperature",
       "Auto Brightness Adjustment",
     ],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363247/clock-2_ldjav9.png",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363247/clock-2_ldjav9.png",
   },
   {
     id: 81,
@@ -1429,7 +1671,8 @@ export const products = [
       "Displays Date & Time",
       "Inside & outside Temperature function (Optional)",
     ],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363248/clock-3_gqosqe.png",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363248/clock-3_gqosqe.png",
   },
   {
     id: 82,
@@ -1443,7 +1686,8 @@ export const products = [
     temperatureRange: "-25°C to +20°C",
     weight: "N.W/G.W: 18Kg/20Kg",
     productSize: "590 x 365 x 535mm",
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363262/fridge-1_ibtssp.png",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363262/fridge-1_ibtssp.png",
     features: [
       "Tempered Glass Cover",
       "Touch Screen",
@@ -1483,7 +1727,8 @@ export const products = [
       "Music",
       "About us",
     ],
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363288/vod-1_grorpr.png",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363288/vod-1_grorpr.png",
   },
   {
     id: 84,
@@ -1506,6 +1751,7 @@ export const products = [
     wan: "x1 RJ45 (1000Mbps)",
     internet: "4G",
     navigation: "GPS/GLONASS/BeiDou/Galileo/QZSS",
-    imageUrl: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363289/vod-2_ksyxf3.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363289/vod-2_ksyxf3.jpg",
   },
 ];
