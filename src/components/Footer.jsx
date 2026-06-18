@@ -26,10 +26,10 @@ export default function Footer() {
                   style={{
                     color: "#ffffff",
                     fontFamily: "Barlow Condensed, sans-serif",
-                    WebkitTextStroke: "0.5px #3b82f6",
+                    WebkitTextStroke: "1px #000000",
                   }}
                 >
-                  CARBON
+                  CΛRBON
                 </p>
               </div>
             </Link>

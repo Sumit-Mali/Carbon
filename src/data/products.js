@@ -1728,7 +1728,7 @@ export const products = [
       "About us",
     ],
     imageUrl:
-      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363288/vod-1_grorpr.png",
+      "https://res.cloudinary.com/detwyd4yq/image/upload/v1781789328/vod-1_u61jom.jpg",
   },
   {
     id: 84,
