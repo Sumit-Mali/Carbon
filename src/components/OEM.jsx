@@ -4,12 +4,30 @@ import React from "react";
 const OEM = () => {
   // 1. Define Logos
   const oemLogos = [
-    { name: "Volvo", url: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363289/volvo_m6yxm9.webp" },
-    { name: "Tata Motors", url: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363284/tatamotors_jgb7lo.webp" },
-    { name: "Ashok Leyland", url: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363237/ashokleyland_ncm6zo.webp" },
-    { name: "Scania", url: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363281/scania_w9runt.webp" },
-    { name: "MCV", url: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363267/mcvpr_mcjtmd.webp" },
-    { name: "MG Group, Belagavi", url: "" },
+    {
+      name: "Volvo",
+      url: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781895704/volvo-logo_rwlexu.webp",
+    },
+    {
+      name: "Tata Motors",
+      url: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781895938/logo-tata-motors_wbaxub.svg",
+    },
+    {
+      name: "Ashok Leyland",
+      url: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781895400/Ashok-Leyland-Brand-Logo_ykdnke.svg",
+    },
+    {
+      name: "Scania",
+      url: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363281/scania_w9runt.webp",
+    },
+    {
+      name: "MCV",
+      url: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781363267/mcvpr_mcjtmd.webp",
+    },
+    {
+      name: "MG Group, Belagavi",
+      url: "https://res.cloudinary.com/detwyd4yq/image/upload/v1781895258/mg-group_vk9xno.png",
+    },
   ];
 
   // 2. Duplicate array 3x for seamless infinite loop without breaks

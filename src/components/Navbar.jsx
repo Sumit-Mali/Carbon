@@ -51,7 +51,7 @@ export default function Navbar() {
               data-testid="logo-link"
             >
               <div className="flex flex-col">
-                <p
+                {/* <p
                   className="text-2xl md:text-4xl font-black tracking-wider uppercase"
                   style={{
                     color: "#ffffff",
@@ -60,7 +60,12 @@ export default function Navbar() {
                   }}
                 >
                   CΛRBON
-                </p>
+                </p> */}
+                <img
+                  src="https://res.cloudinary.com/detwyd4yq/image/upload/v1781894980/logo_rku8ki.png"
+                  alt="CARBON Logo"
+                  className="lg:w-50 w-40"
+                />
               </div>
             </Link>
 

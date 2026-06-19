@@ -21,16 +21,11 @@ export default function Footer() {
                 </p>
               </div> */}
               <div className="flex flex-col">
-                <p
-                  className="text-2xl md:text-4xl font-black tracking-wider uppercase"
-                  style={{
-                    color: "#ffffff",
-                    fontFamily: "Barlow Condensed, sans-serif",
-                    WebkitTextStroke: "1px #000000",
-                  }}
-                >
-                  CΛRBON
-                </p>
+                <img
+                  src="https://res.cloudinary.com/detwyd4yq/image/upload/v1781894980/logo_rku8ki.png"
+                  alt="CARBON Logo"
+                  className="lg:w-50 w-40"
+                />
               </div>
             </Link>
 
