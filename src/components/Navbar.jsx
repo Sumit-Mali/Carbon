@@ -62,7 +62,7 @@ export default function Navbar() {
                   CΛRBON
                 </p> */}
                 <img
-                  src="https://res.cloudinary.com/detwyd4yq/image/upload/v1781894980/logo_rku8ki.png"
+                  src="https://res.cloudinary.com/detwyd4yq/image/upload/v1781961167/Carbon-logo_wloqq4.jpg"
                   alt="CARBON Logo"
                   className="lg:w-50 w-40"
                 />
